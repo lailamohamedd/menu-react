@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.color-body {
+  background-color: #f8f8f8;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font {
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.title {
+  color: #224f61;
+  font-family: "Almarai", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.underline {
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #d45a26;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-cat {
+  color: #d45a26;
+  font-family: "Almarai", sans-serif;
+  background-color: transparent;
+  border: 1px solid #d45a26;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn-cat:hover {
+  color: #f8f8f8;
+  background-color: #d45a26;
+}
+
+.img-item {
+  height: 180px;
+  width: 252px !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.item-title {
+  color: #5555;
+}
+.item-desc {
+  color: #8c8c8c;
+}
+.item-price {
+  color: #d45a26;
+}
+.item-title, .item-price {
+  font-weight: bold;
+}
+.item-desc, .item-title, .item-price {
+  font-family: "Almarai", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.btn-search {
+  border: 1px solid #d45a26;
+  background-color: #d45a26 !important;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-color {
+  background-color: #f8f8f8;
+}
+
+.brand-color {
+  color: #d45a26;
 }
